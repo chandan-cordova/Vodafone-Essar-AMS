@@ -1,0 +1,129 @@
+/* line 4, ../../sass/others/coloured-classes.scss */
+.main-color-text, .mainColorText {
+  color: #029ece;
+}
+
+/* line 5, ../../sass/others/coloured-classes.scss */
+.light-blue-theme-color-text {
+  color: #f3f6f8;
+}
+
+/* line 7, ../../sass/others/coloured-classes.scss */
+.blue-text {
+  color: #1763D3;
+}
+
+/* line 8, ../../sass/others/coloured-classes.scss */
+.dark-blue-text {
+  color: #659BB2;
+}
+
+/* line 9, ../../sass/others/coloured-classes.scss */
+.red-text, .redText {
+  color: #e60000;
+}
+
+/* line 10, ../../sass/others/coloured-classes.scss */
+.green-text, .greenText {
+  color: #add65f;
+}
+
+/* line 11, ../../sass/others/coloured-classes.scss */
+.light-green-text {
+  color: #64DD17;
+}
+
+/* line 12, ../../sass/others/coloured-classes.scss */
+.orange-text {
+  color: #DA8642;
+}
+
+/* line 13, ../../sass/others/coloured-classes.scss */
+.gray-text {
+  color: #acacac;
+}
+
+/* line 14, ../../sass/others/coloured-classes.scss */
+.dark-gray-text {
+  color: #535353;
+}
+
+/* line 15, ../../sass/others/coloured-classes.scss */
+.light-gray-text {
+  color: #F9FAFA;
+}
+
+/* line 16, ../../sass/others/coloured-classes.scss */
+.black-text, .blackText {
+  color: #000;
+}
+
+/* line 17, ../../sass/others/coloured-classes.scss */
+.white-text, .whiteText {
+  color: #FFF;
+}
+
+/* line 20, ../../sass/others/coloured-classes.scss */
+.grayText {
+  color: #acacac;
+}
+
+/* line 22, ../../sass/others/coloured-classes.scss */
+.light-blue-theme-color-background {
+  background-color: #f3f6f8;
+}
+
+/* line 23, ../../sass/others/coloured-classes.scss */
+.main-color-background {
+  background-color: #029ece;
+}
+
+/* line 24, ../../sass/others/coloured-classes.scss */
+.blue-background {
+  background-color: #1763D3;
+}
+
+/* line 25, ../../sass/others/coloured-classes.scss */
+.dark-blue-background {
+  background-color: #659BB2;
+}
+
+/* line 26, ../../sass/others/coloured-classes.scss */
+.red-background {
+  background-color: #e60000;
+}
+
+/* line 27, ../../sass/others/coloured-classes.scss */
+.green-background {
+  background-color: #add65f;
+}
+
+/* line 28, ../../sass/others/coloured-classes.scss */
+.light-green-background-color {
+  color: #64DD17;
+}
+
+/* line 29, ../../sass/others/coloured-classes.scss */
+.orange-background {
+  background-color: #DA8642;
+}
+
+/* line 30, ../../sass/others/coloured-classes.scss */
+.gray-background {
+  background-color: #acacac;
+}
+
+/* line 31, ../../sass/others/coloured-classes.scss */
+.light-gray-background {
+  background-color: #F9FAFA;
+}
+
+/* line 32, ../../sass/others/coloured-classes.scss */
+.black-background {
+  background-color: #000;
+}
+
+/* line 33, ../../sass/others/coloured-classes.scss */
+.white-background {
+  background-color: #FFF !important;
+}

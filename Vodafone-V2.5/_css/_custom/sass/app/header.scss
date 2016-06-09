@@ -1,0 +1,52 @@
+@import "../others/colors.scss";
+@import "../others/mixins.scss";
+
+
+.header-wrap{
+	clear:both;
+	.logo{
+		display:inline-block;position:relative; padding-left:105px !important;
+		h1{margin:5px 0px;}
+	}
+	.right-box{
+		.contact-box{
+			
+		}
+	}
+
+	.small-menu{
+		margin-top:10px;
+		ul{
+			padding:0; margin:0; list-style-type:none;
+			li{
+				display:inline-block; position:relative; float:left;
+				a{
+					display:block; position:relative; color:$black; padding:10px 5px; font-size:12px;
+					.glyphicon{color:$red; font-size:10px;}
+				}
+			}
+		}
+	}
+	
+
+    .main-menu-cont{background-color:$red; clear:both; @include makeMixin(border-radius , 5px); padding:6px; position:relative; z-index:350; }
+	.menu{
+
+		ul{
+			list-style-type:none; margin:0; padding:0;
+			li{
+				display:inline-block; position:relative;
+				a{
+					display:block; position:relative; color:$white; padding:3px 10px;
+					.glyphicon{font-size:10px;}
+				}
+			}
+		}
+	}
+
+	.search-box{
+		position:relative;
+		input{border:solid 1px $white; outline:none; padding:5px; height:27px; z-index:90;}
+		.magnifying-glass{display:inline-block; position:absolute;top:0px; right:0px; height:27px; width:30px; z-index:100; background-image:url(../../../_images/consumer/searchBoxBg.png);background-repeat:no-repeat;background-position:-198px -7px;}
+	}
+}

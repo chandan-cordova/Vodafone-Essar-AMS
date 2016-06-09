@@ -1,0 +1,28 @@
+/* line 1, ../../sass/app/grid.scss */
+.wrapper {
+  display: block;
+  clear: both;
+}
+/* line 3, ../../sass/app/grid.scss */
+.wrapper .inner {
+  display: block;
+  width: 680px;
+  margin: 0 auto;
+  clear: both;
+}
+@media screen and (max-width: 680px) {
+  /* line 5, ../../sass/app/grid.scss */
+  .wrapper .inner {
+    width: auto;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 8, ../../sass/app/grid.scss */
+  .wrapper .p-l-n {
+    padding-left: 15px !important;
+  }
+  /* line 9, ../../sass/app/grid.scss */
+  .wrapper .p-r-n {
+    padding-right: 15px !important;
+  }
+}

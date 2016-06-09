@@ -1,0 +1,974 @@
+/* ------------- Desktop ---------------- */
+
+@media only screen and (min-width : 992px)
+{
+	.wrapper.order.topBannerBg {
+    background: url(../../_images/consumer/Order/05_PurchaseFlow_1Order_Desktop_2.jpg) no-repeat -252px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-size: auto 100%;
+    height: 440px;
+	}
+	.account{
+	border-color: #e60000;
+    color: #e60000;
+    padding: 4px 5px 3px 7px;
+    margin-top: -5px;
+	font-size: 12px;
+    font-family: "Arial";
+	}
+	.basket-img{
+	margin-right: 34px !important;
+	}
+	.your-order{
+	padding-top: 27px;
+	}
+	.Choose_the_Subscription_Period_and_the_Payment_ {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(102, 102, 102);
+	line-height: 1.929;
+	}
+	._1_item {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.929;
+	float:right;
+	}
+	.Office_365_Business_Essentials {
+	font-size: 26px !important;
+	font-family: "Arial" !important;
+	color: rgb(51, 51, 51) !important;
+	line-height: 1.2;
+	text-align: left;
+	}
+	.mar{
+	margin-top:40px;
+	}
+    .office-order{
+	margin-top: 22px;
+    border-right: 1px solid;
+    margin-left: -8px;
+	margin-right: -88px;
+	}
+	.order-pad{
+	padding-bottom: 60px;
+	}
+	.order-img{
+	padding: 22px 0px 22px 22px;
+	}
+	.order-box{
+	    border: 1px solid;
+    margin-left: 16px;
+    width: 935px;
+	}
+	.order-subtotal{
+	text-align: center;
+    padding-top: 79px;
+	padding-left: 86px;
+	}
+	
+	.additional{
+	border: 1px solid #bdbdbd;
+    background-color: #ebebeb;
+	width: 22.666667% !important;
+	text-align:center;
+	padding: 16px 0px 4px 0px;
+	}
+	.add-off{
+	margin-left: 25px !important;
+	}
+	.bottom{
+	margin-top: 57px;
+	MARGIN-BOTTOM: 44px;
+	}
+	
+	.sales{
+	font-size: 17px;
+	font-weight: bold;
+	color:#333333;
+	}
+	.cancel{
+	    padding: 0px 0px 0px 45px;
+    margin-right: -14px;
+    margin-left: 0px;
+	}
+	.review{
+	padding: 0px 0px 0px 56px;
+    margin-right: -49px;
+    margin-left: 32px;
+	}
+	.other{
+	border: 1px solid black;
+    background-color: transparent;
+    width: 22.666667% !important;
+    text-align: center;
+    padding: 19px 0px 15px 0px;
+	}
+	.SelTop{
+	margin-top: 7px;
+	}
+	.backgrey{
+	    background-color: #cccccc;
+    margin: 52px 11px 14px 9px;
+    padding: 12px 0px 13px 113px;
+	}
+	.support{
+	padding-right: 23px;
+	padding-top: 4px;
+	    border-right: 2px solid #bdbdbd;
+	}
+	.contact{
+		padding-right: 50px;
+		 padding-top: 3px;
+	}
+	.PCI{
+	float: right;
+    margin-right: -150px;
+    margin-top: -9px;
+	}
+	.nomargin-order-FAQ{
+		    margin: inherit;
+	}
+	.your_subscription_align {
+        margin-left: 16px;
+    margin-right: 23px;
+}
+.SupContact{
+	font-size: 16px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.125;
+	text-align: left;
+	-moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	left: 546.724px;
+	top: 2041.773px;
+	z-index: 266;
+	}
+	
+
+}
+
+
+/* ------------- Tablet:: Landscape ---------------- */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	.wrapper.order.topBannerBg {
+    background: url(../../_images/consumer/Order/05_PurchaseFlow_1Order_Desktop_2.jpg) no-repeat -252px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-size: auto 100%;
+    height: 440px;
+	}
+	.mar{
+	margin-top:40px;
+	margin-left:0px;
+	}
+	.your-order{
+	padding-top: 27px;
+	}
+	.order-box{
+	border: 1px solid;
+    width: 96.083333%;
+    margin: 0px auto;
+	}
+	.office-order{
+	margin-top: 22px;
+    border-right: 1px solid;
+    margin-left: -8px;
+	margin-right: -88px;
+	margin-bottom: 21px;
+	}
+	.order-pad{
+	padding-bottom: 60px;
+	} 	
+	.order-subtotal {
+    text-align: center;
+    padding-top: 79px;
+    padding-left: 86px;
+	}
+	.backgrey{
+	background-color:#cccccc;
+	margin: 52px 0px 12px 0px;
+    padding: 12px 0px 13px 113px;
+	}
+	.nomargin-order-FAQ {
+           margin: 1px;
+    margin-left: 0px;
+	}
+	.business-space{
+		padding-bottom: 26px !important;
+	}
+	.reviewMob{
+		  margin-left: -257px !important;
+		  }
+		  
+		  .order-img-fone
+		  {height: 233px;}
+	
+	
+	
+		.account{
+	border-color: #e60000;
+    color: #e60000;
+    padding: 4px 5px 3px 7px;
+    margin-top: -5px;
+	font-size: 12px;
+    font-family: "Arial";
+	}
+	.basket-img{
+	margin-right: 34px !important;
+	}
+	.Choose_the_Subscription_Period_and_the_Payment_ {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(102, 102, 102);
+	line-height: 1.929;
+	}
+	._1_item {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.929;
+	float:right;
+	}
+	.Office_365_Business_Essentials {
+	font-size: 26px !important;
+	font-family: "Arial" !important;
+	color: rgb(51, 51, 51) !important;
+	line-height: 1.2;
+	text-align: left;
+	}
+	.order-img{
+	padding: 22px 0px 22px 22px;
+	}
+	
+	.additional{
+	border: 1px solid #bdbdbd;
+    background-color: #ebebeb;
+	width: 21.666667% !important;
+	text-align:center;
+	padding: 16px 0px 4px 0px;
+	}
+	.add-off{
+	margin-left: 25px !important;
+	}
+	.bottom{
+	margin-top: 57px;
+	MARGIN-BOTTOM: 44px;
+	}
+	
+	.sales{
+	font-size: 17px;
+	font-weight: bold;
+	color:#333333;
+	}
+	.cancel{
+	padding: 2px 0px 0px 49px;
+    margin-right: -14px;
+    margin-left: -1px;
+	}
+	.review{
+	padding: 0px 0px 0px 56px;
+    margin-right: -49px;
+    margin-left: 63px;
+	}
+	.other{
+	border: 1px solid black;
+    background-color: transparent;
+    width: 21.666667% !important;
+    text-align: center;
+    padding: 19px 0px 15px 0px;
+	}
+	.SelTop{
+	margin-top: 7px;
+	}
+	.SupContact{
+	font-size: 16px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.125;
+	text-align: left;
+	-moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	left: 546.724px;
+	top: 2041.773px;
+	z-index: 266;
+	}
+	.support{
+	        padding-right: 13px;
+    padding-top: 4px;
+    border-right: 2px solid #bdbdbd;
+    margin-right: 34px;
+	}
+	.contact{
+		    padding-right: 1px;
+    padding-top: 3px;
+	}
+	.PCI{
+		    float: right;
+        margin-right: -53px;
+    margin-top: -14px;
+	}
+	.contacts_mob{
+	    margin-left: -48px;
+	}
+	.SupContact{
+	font-size: 16px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.125;
+	text-align: left;
+	-moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	left: 546.724px;
+	top: 2041.773px;
+	z-index: 266;
+	}
+	.your_subscription_align {
+        margin-left: 16px;
+    margin-right: 23px;
+}
+}
+
+
+/* ------------- Tablet:: Portrait and mobile landscape ---------------- */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+		.wrapper.order.topBannerBg {
+    background: url(../../_images/consumer/Order/mobile/05_Purchaseflow_1Order_mobile_1.jpg) no-repeat 0px 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: 100% auto;
+    height: 328px;
+	}
+	.bottom{
+	    margin-top: 34px;
+	MARGIN-BOTTOM: 44px;
+	    margin-left: initial;
+	}
+	.your-order{
+	padding-top: 27px;
+		margin-bottom: 14px;
+	}
+	.office-order{
+		border-bottom: 1px solid;
+		width: 368px;
+		margin: 18px auto 21px;
+	}
+	.number{margin-bottom: 28px;}
+	.your_subscription_align {
+        margin-left: 16px;
+    margin-right: 23px;
+}
+	.order-box{
+	  border: 1px solid;
+    /* width: 586px; */
+    margin: auto;
+    margin-left: 16px;
+    margin-right: 18px;
+	}
+	.support {
+	padding-right: 70px;
+    padding-top: 6px;
+    border-right: 2px solid #bdbdbd;
+    margin-right: -19px;
+}
+.contact {
+    padding-right: 79px;
+    padding-top: 4px;
+}
+	.Office_365_Business_Essentials {
+  font-size: 26px !important;
+  font-family: "Arial" !important;
+  color: rgb(51, 51, 51) !important;
+  line-height: 1.2;
+  text-align: left;
+}
+.Choose_the_Subscription_Period_and_the_Payment_ {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+}
+.Office_365_Business_Essentials {
+  font-size: 26px !important;
+  font-family: "Arial" !important;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  
+}
+.order-img-fone{
+    width: 376px;
+    height: 276px;
+    margin: 23px 0px 0px 85px;
+    margin: 23px auto;
+    display: block !important;
+}
+.pad
+{    padding-bottom: 7px;   }
+.order-subtotal{
+	text-align: center;
+	    margin-bottom: 24px;
+	}
+.additional{
+	border: 1px solid #bdbdbd;
+    background-color: #ebebeb;
+	width: 40% !important;
+	text-align:center;
+	padding: 16px 0px 4px 0px;
+	margin-left:31%;
+	}
+.other{
+	border: 1px solid black;
+    background-color: transparent;
+    width: 50.666667% !important;
+    text-align: center;
+    padding: 19px 0px 15px 0px;
+	margin-left: 26%;
+	}
+.rig{
+	float:right;
+}
+.review{
+	padding: 0px 0px 0px 56px;
+    margin-right: -49px;
+    margin-left: 63px;
+	}
+	.cancel{
+	padding: 2px 0px 0px 49px;
+    margin-right: -14px;
+    margin-left: 0px;
+	}
+	.backgrey {
+        background-color: #cccccc;
+    margin: 47px 0px 12px 12px;
+    padding: 12px 0px 13px 229px;
+    margin-right: 15px;
+}
+.reviewMob{
+	    margin-left: -69px !important;
+}
+.PCI {
+    margin: 47px 0px 12px 12px;
+    padding: 12px 0px 13px 229px;
+}
+.img-PCI{    margin-left: 184px;}
+
+.nomargin-order-FAQ {
+           margin: 1px;
+    margin-left: 0px;
+}
+.related-tops {
+    padding-top: 24px;
+}
+.SupContact{
+	font-size: 16px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.125;
+	text-align: left;
+	-moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	left: 546.724px;
+	top: 2041.773px;
+	z-index: 266;
+	}
+}
+
+
+/* ------------- Mobile ---------------- */
+@media only screen and (max-width: 480px){
+		.wrapper.order.topBannerBg {
+    background: url(../../_images/consumer/Order/mobile/05_Purchaseflow_1Order_mobile_1.jpg) no-repeat -252px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-size: auto 100%;
+    height: 329px;
+	}
+	.bottom{
+	       margin-top: 34px;
+    MARGIN-BOTTOM: 44px;
+    margin-left: -16px;
+	}
+	.your-order{
+	padding-top: 27px;
+		margin-bottom: 14px;
+	}
+	.office-order{
+	margin-top: 18px;
+    border-bottom: 1px solid;
+    margin-bottom: 21px;
+	}
+	.number{margin-bottom: 28px;}
+	.your_subscription_align {
+        margin-left: 16px;
+    margin-right: 23px;
+}
+	.order-box{
+	    border: 1px solid;
+    width: 94.083333%;
+    margin: auto;
+	}
+	.support {
+	 padding-right: 1px;
+    padding-top: 6px;
+    border-right: 2px solid #bdbdbd;
+    margin-right: -21px;
+}
+.contact {
+    padding-right: 1px;
+    padding-top: 6px;
+}
+.contacts_mob{
+	    margin-left: -9px;
+}
+	.Office_365_Business_Essentials {
+  font-size: 26px !important;
+  font-family: "Arial" !important;
+  color: rgb(51, 51, 51) !important;
+  line-height: 1.2;
+  text-align: left;
+}
+.Choose_the_Subscription_Period_and_the_Payment_ {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+}
+.Office_365_Business_Essentials {
+  font-size: 26px !important;
+  font-family: "Arial" !important;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  
+}
+.order-img-fone{
+	    width: 376px;
+    height: 276px;
+    margin: 23px 0px 0px -1px;
+}
+.pad
+{    padding-bottom: 7px;   }
+.order-subtotal{
+	text-align: center;
+	    margin-bottom: 24px;
+	}
+.additional{
+	border: 1px solid #bdbdbd;
+    background-color: #ebebeb;
+    width: 60% !important;
+    text-align: center;
+    padding: 16px 0px 4px 0px;
+    margin-left: 20%;
+	}
+.other{
+	border: 1px solid black;
+    background-color: transparent;
+    width: 60.666667% !important;
+    text-align: center;
+    padding: 19px 0px 15px 0px;
+	margin-left: 20%;
+	}
+.rig{
+	float:right;
+}
+.review{
+	padding: 0px 0px 0px 56px;
+    margin-right: -49px;
+    margin-left: 63px;
+	}
+	.cancel{
+	padding: 2px 0px 0px 49px;
+    margin-right: -14px;
+    margin-left: 0px;
+	}
+	.backgrey {
+        background-color: #cccccc;
+    margin: 47px 0px 12px 12px;
+    padding: 12px 0px 13px 229px;
+    margin-right: 15px;
+}
+.PCI {
+    float: right;
+    margin-right: -26px;
+        margin-top: 15px;
+}
+.img-PCI{    margin-left: 184px;}
+
+.nomargin-order-FAQ {
+           margin: 1px;
+    margin-left: 0px;
+}
+.related-tops {
+    padding-top: 24px;
+}
+   .radioAlign{ margin-left: 0px !important;}
+      .reviewMob{
+		  margin-left: -257px !important;
+		  }
+		  .sup-img{    
+		  height: 49px;
+		width: 53px;
+		}
+		.SupContact{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.125;
+	text-align: left;
+	-moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	-ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+	left: 546.724px;
+	top: 2041.773px;
+	z-index: 266;
+	}
+	   
+	
+}
+/* -------------ifone5 :: Mobile Portrait ---------------- */
+
+@media only screen and (max-width: 320px) and (orientation:portrait){
+	.Annual {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    background-color: white !important;
+    border-radius: 3px;
+    padding: 3px 6px 3px 15px;
+    width: 117px;
+}
+.down {
+    padding-left: 41px !important;
+}
+.input-inc {
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 27px;
+    padding-bottom: 4px;
+    text-align: center;
+    width: 46px !important;
+}
+.input-inc-cou {
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 27px;
+    padding-bottom: 4px;
+    text-align: center;
+    width: 38px !important;
+}
+.reviewMob {
+    margin-left: -296px !important;
+}
+.support {
+    padding-right: 1px !important;
+    padding-top: 6px !important;
+    border-right: 2px solid #bdbdbd !important;
+    margin-right: -22px !important;
+}
+.SupContact {
+    font-size: 10px !important;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.125;
+    text-align: left;
+    -moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+    -webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+    -ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+    left: 546.724px;
+    top: 2041.773px;
+    z-index: 266;
+}
+.sales-color {
+    font-size: 10px !important;
+    font-family: "Arial";
+    color: rgb(102, 102, 102);
+}
+.img-PCI {
+    margin-left: 148px !important;
+}
+.contact {
+    padding-right: 0px !important;
+    padding-top: 6px;
+}
+.sup-img {
+    height: 49px !important;
+    width: 47px !important;
+}
+	
+}
+
+
+
+
+/* ------------- Common ---------------- */
+.nomargin-order{margin-left: auto;}
+
+.Annual {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  background-color:white !important;
+	border-radius: 3px;
+    padding: 3px 6px 3px 15px;
+}
+
+.down{
+	padding-left: 85px;
+}
+.inc-dec{
+	    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(51, 51, 51);
+    border-radius: 3px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 27px;
+    padding-top: 2px;
+}
+
+.Rounded_Rectangle_3_copy_3 {
+  
+}
+
+
+.res-back{
+	background-color:#333333 !important;
+	color:white !important;
+}
+.input-dom{
+	    width: auto !important;
+    padding-left: 153px;
+	padding-bottom: 2px;
+}
+
+.sales-color{
+	 font-size: 12px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+}
+.Business_Essentials {
+  font-size: 16px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    border-bottom: 1px solid #bdbdbd;
+    width: 80%;
+    margin-left: 17px;
+    padding-bottom: 8px;
+	    height: 47px;
+}
+.Number_of_licenses {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+  line-height: 1.929;
+  width: 80%;
+    margin-left: 17px;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 8px;
+}
+.Selected {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+  line-height: 1.929;
+      margin-right: 18px;
+}
+
+.Choose_subdomain_name {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+}
+.your-order-font{
+		font-size: 30px !important;
+		font-family: "Vodafone ExB" !important;
+		color: rgb(230, 0, 0);
+		line-height: 0.9;
+
+	}
+.PLAN_PRICE_SUBSCRIPTION_PERIOD__NO_OF_LICENSES {
+  font-size: 14px !important;
+  font-family: "Arial" !important;
+  color: rgb(118, 118, 118);
+}
+	.adj_plan{
+  font-size: 18px !important;
+  color: rgb(0, 0, 0) !important;
+  line-height: 1.2;
+  text-align: left;
+}
+.subs {
+  font-size: 14px !important;
+  font-family: "Arial" !important;
+  color: rgb(118, 118, 118);
+  line-height: 1.2;
+}
+.input-inc{
+       border-radius: 3px;
+    border: 1px solid black;
+    height: 27px;
+    padding-bottom: 4px;
+    text-align: center;
+	width:79px;
+	}
+
+.SUBTOTAL {
+  font-size: 14px !important;
+  font-family: "Arial" !important;
+  color: rgb(118, 118, 118);
+  line-height: 1.2;
+}
+
+.sub {
+  font-size: 20px !important;
+  color: rgb(0, 0, 0);
+  font-family: "Arial" !important;
+  line-height: 1.2;
+}
+
+	.your_subscription {
+  font-size: 12px !important;
+  font-family: "Arial" !important;
+  color: rgb(118, 118, 118);
+ }
+
+
+.Additional_Resources {
+  font-size: 24px !important;
+  font-family: "Arial" !important;
+  color: rgb(235, 57, 57);
+  font-weight: normal !important;
+}
+.Add_additional{
+  font-size: 14px !important;
+  font-family: "Arial" !important;
+  color: rgb(102, 102, 102);
+  line-height: 1.929;
+}
+
+
+.items{
+		float:right;
+	}
+
+	.input-inc-cou {
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 27px;
+    padding-bottom: 4px;
+    text-align: center;
+	width:54px;
+}
+	
+	
+	
+	
+	
+	
+	
+	.carousel-control.left, .carousel-control.right {
+    margin-left: 20px;
+    background-image: none;
+}
+.carousel-control .icon-prev, .carousel-control .glyphicon-menu-left {
+    position: absolute;
+    top: 50%;
+    left: -61%;
+    z-index: 5;
+    display: inline-block;
+    color: #b5b5b5;
+}
+.carousel-control .icon-next, .carousel-control .glyphicon-menu-right {
+    position: absolute;
+    top: 50%;
+    right: -15%;
+    z-index: 5;
+    display: inline-block;
+    color: #b5b5b5;
+}
+
+
+
+
+/*---------------------------------- Tabs--------------------------------*/
+.tabs-img{
+	width:20px;
+	height:20px;
+}
+.wizard {
+    background: #efefef;
+    display: inline-block;
+    margin-right: 5px;
+    min-width: 150px;
+    outline: none;
+    padding: 10px 40px 10px;
+    position: relative;
+    text-decoration: none;
+	border: 1px solid #a0a0a0;
+	    border-left: 0px white;
+    border-right: 0px white;
+}
+.wizard.active {
+    background: #007ACC;
+    color: #fff;
+}
+.wizard:before {
+        width: 0;
+        height: 0;
+        border-top: 20px inset transparent;
+        border-bottom: 20px inset transparent;
+        border-left: 20px solid #fff;
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+		
+    }
+.wizard:after {
+        width: 0;
+        height: 0;
+        border-top: 20px inset transparent;
+        border-bottom: 20px inset transparent;
+        border-left: 21px solid #efefef;
+        position: absolute;
+        content: "";
+        top: 0;
+        right: -20px;
+        z-index: 2;
+    }
+.wizard.active.after{
+border-left: 21px solid #007ACC;
+}
+.wizard:first-child:before, .wizard:last-child:after {
+        border: none;
+		border-right: 1px solid #a0a0a0;
+		border-left: 1px solid #a0a0a0;
+    }
+	.last{border-right: 1px solid #a0a0a0;}
+	.first{border-left: 1px solid #a0a0a0;}
+	.arrows{
+		    margin-right: -2px
+	}
+	.apply{
+	background-color:#3d3d3d;
+	border-color:#3d3d3d;
+}

@@ -1,0 +1,11 @@
+@import "../others/colors.scss";
+@import "../others/mixins.scss";
+
+.footer-wrap{
+	background-color:#333333; padding:20px 0px;
+	h5{font-size:16px; color:lighten($gray,20%);}
+	.first-box{border-right:solid 1px darken($gray,35%);}
+	.gray-border{border:none; border-bottom:solid 1px darken($gray,35%); margin:5px 0px; display:block; clear:both;}
+	a{display:block;}
+	@media screen and (max-width:950px){text-align:center;}
+}

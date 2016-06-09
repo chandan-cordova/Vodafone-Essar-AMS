@@ -1,0 +1,33 @@
+@import "colors.scss";
+@import "mixins.scss";
+
+.main-color-text , .mainColorText{color:$mainColor;}
+.light-blue-theme-color-text{color:$lightBlueThemeColor;}
+
+.blue-text{color:$blue;}
+.dark-blue-text{color:$darkBlue;}
+.red-text , .redText{color:$red;}
+.green-text , .greenText{color:$green;}
+.light-green-text{color:$lightGreen;}
+.orange-text{color:$orange;}
+.gray-text{color:$gray;}
+.dark-gray-text{color:darken($gray,35%);}
+.light-gray-text{color:$lightGray;}
+.black-text , .blackText{color:$black;}
+.white-text , .whiteText{color:$white;}
+
+// old
+.grayText{color:$gray;}
+
+.light-blue-theme-color-background{background-color:$lightBlueThemeColor;}
+.main-color-background{background-color:$mainColor;}
+.blue-background{background-color:$blue;}
+.dark-blue-background{background-color:$darkBlue;}
+.red-background{background-color:$red;}
+.green-background{background-color:$green;}
+.light-green-background-color{color:$lightGreen;}
+.orange-background{background-color:$orange;}
+.gray-background{background-color:$gray;}
+.light-gray-background{background-color:$lightGray;}
+.black-background{background-color:$black;}
+.white-background{background-color:$white !important;}

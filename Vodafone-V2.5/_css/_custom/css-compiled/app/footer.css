@@ -1,0 +1,32 @@
+/* line 4, ../../sass/app/footer.scss */
+.footer-wrap {
+  background-color: #333333;
+  padding: 20px 0px;
+}
+/* line 6, ../../sass/app/footer.scss */
+.footer-wrap h5 {
+  font-size: 16px;
+  color: #dfdfdf;
+}
+/* line 7, ../../sass/app/footer.scss */
+.footer-wrap .first-box {
+  border-right: solid 1px #535353;
+}
+/* line 8, ../../sass/app/footer.scss */
+.footer-wrap .gray-border {
+  border: none;
+  border-bottom: solid 1px #535353;
+  margin: 5px 0px;
+  display: block;
+  clear: both;
+}
+/* line 9, ../../sass/app/footer.scss */
+.footer-wrap a {
+  display: block;
+}
+@media screen and (max-width: 950px) {
+  /* line 4, ../../sass/app/footer.scss */
+  .footer-wrap {
+    text-align: center;
+  }
+}

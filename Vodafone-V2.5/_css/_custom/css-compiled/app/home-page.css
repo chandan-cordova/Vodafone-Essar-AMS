@@ -1,0 +1,427 @@
+/* line 5, ../../sass/app/home-page.scss */
+.bg-logo {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(../../../_images/consumer/logo.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 33.5%;
+  height: 710px;
+  background-size: 100%;
+  z-index: 300;
+}
+@media screen and (max-width: 1200px) {
+  /* line 5, ../../sass/app/home-page.scss */
+  .bg-logo {
+    left: -10%;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 5, ../../sass/app/home-page.scss */
+  .bg-logo {
+    left: 0px;
+    background-image: url(../../../_images/consumer/logo-mobile.png);
+    width: 100px;
+    height: 60px;
+  }
+}
+
+/* line 16, ../../sass/app/home-page.scss */
+.categories-wrap {
+  min-height: 500px;
+  background-image: url(../../../_images/consumer/001_Cloud_homepage_6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #000;
+}
+/* line 17, ../../sass/app/home-page.scss */
+.categories-wrap .inner {
+  overflow: auto;
+}
+/* line 20, ../../sass/app/home-page.scss */
+.categories-wrap .main-heading {
+  margin: 10px 0 0 0;
+}
+/* line 21, ../../sass/app/home-page.scss */
+.categories-wrap .p-small {
+  margin: 5px;
+}
+/* line 22, ../../sass/app/home-page.scss */
+.categories-wrap .categories-cont {
+  margin-top: 20px;
+}
+/* line 23, ../../sass/app/home-page.scss */
+.categories-wrap .upper {
+  min-height: 70px;
+}
+/* line 24, ../../sass/app/home-page.scss */
+.categories-wrap .category-icon {
+  display: inline-block;
+  float: left;
+  max-width: 70px;
+}
+/* line 25, ../../sass/app/home-page.scss */
+.categories-wrap .category-heading {
+  position: relative;
+  top: 20px;
+}
+/* line 27, ../../sass/app/home-page.scss */
+.categories-wrap .collapsable {
+  background-color: #eb1c24;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin: 2px 0px;
+  color: #FFF;
+  padding: 2px;
+  position: relative;
+}
+/* line 29, ../../sass/app/home-page.scss */
+.categories-wrap .collapsable p {
+  position: relative;
+  padding: 0px 5px;
+}
+/* line 30, ../../sass/app/home-page.scss */
+.categories-wrap .collapsable .glyphicon {
+  position: absolute;
+  font-size: 10px;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+/* line 32, ../../sass/app/home-page.scss */
+.categories-wrap p {
+  clear: both;
+}
+
+/* line 35, ../../sass/app/home-page.scss */
+.carousel-wrap {
+  padding: 20px 0;
+}
+/* line 36, ../../sass/app/home-page.scss */
+.carousel-wrap .inner {
+  position: relative;
+}
+/* line 38, ../../sass/app/home-page.scss */
+.carousel-wrap h3 {
+  margin: 10px 0px 0px 0px;
+}
+/* line 39, ../../sass/app/home-page.scss */
+.carousel-wrap p {
+  margin: 0px 0px 5px 0px;
+}
+/* line 41, ../../sass/app/home-page.scss */
+.carousel-wrap .left-button, .carousel-wrap .right-button {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  font-size: 30px;
+  color: #acacac;
+  cursor: pointer;
+}
+/* line 43, ../../sass/app/home-page.scss */
+.carousel-wrap .left-button {
+  left: -20px;
+}
+/* line 44, ../../sass/app/home-page.scss */
+.carousel-wrap .right-button {
+  right: -20px;
+}
+@media screen and (max-width: 790px) {
+  /* line 46, ../../sass/app/home-page.scss */
+  .carousel-wrap .left-button, .carousel-wrap .right-button {
+    display: none;
+  }
+}
+/* line 48, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-inner {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 52, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item {
+  position: relative;
+  margin: 10px 0px;
+}
+/* line 54, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker {
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  background-color: #e60000;
+  left: 6px;
+  top: 40px;
+  z-index: 200;
+  text-align: center;
+}
+/* line 56, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker .sticker-cont {
+  z-index: 150;
+  position: relative;
+}
+/* line 57, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker .black-text {
+  display: block;
+  font-size: 12px;
+}
+/* line 58, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker .price, .carousel-wrap .carousel-item .sticker .users {
+  display: block;
+  font-size: 12px;
+  color: #FFF;
+}
+/* line 59, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent;
+  border-right-color: #1a0000;
+  z-index: 100;
+}
+/* line 60, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #e60000;
+  z-index: 110;
+}
+/* line 61, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker p {
+  margin: 0;
+}
+/* line 63, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .image-cont {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 65, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .image-cont .carousel-item-pic {
+  position: relative;
+  z-index: 150;
+  width: 100%;
+  min-height: 100%;
+}
+/* line 67, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .details {
+  background-color: #333333;
+  padding: 10px;
+}
+/* line 69, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .details p {
+  color: #acacac;
+}
+/* line 70, ../../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .details h5 {
+  color: #dfdfdf;
+}
+
+/* line 77, ../../sass/app/home-page.scss */
+.sticky-icons {
+  display: inline-block;
+  position: fixed;
+  right: 0px;
+  top: 30%;
+}
+/* line 79, ../../sass/app/home-page.scss */
+.sticky-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 81, ../../sass/app/home-page.scss */
+.sticky-icons ul li {
+  display: block;
+  positiopn: relative;
+  margin: 2px;
+}
+/* line 83, ../../sass/app/home-page.scss */
+.sticky-icons ul li a {
+  display: block;
+  position: relative;
+  padding: 5px;
+  background-color: #000;
+  width: 100px;
+  border-radius: 5px 0px 0px 5px;
+  -ms-border-radius: 5px 0px 0px 5px;
+  -o-border-radius: 5px 0px 0px 5px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  -moz-border-radius: 5px 0px 0px 5px;
+  text-align: center;
+}
+/* line 85, ../../sass/app/home-page.scss */
+.sticky-icons ul li a .icon {
+  width: 60px;
+  height: 50px;
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+}
+/* line 87, ../../sass/app/home-page.scss */
+.sticky-icons ul li a .icon.help {
+  background-position: 8px 4px;
+  background-image: url(../../../_images/consumer/home/floating/icon1.png);
+}
+/* line 88, ../../sass/app/home-page.scss */
+.sticky-icons ul li a .icon.speak {
+  background-position: 10px 0px;
+  background-image: url(../../../_images/consumer/home/floating/icon2.png);
+}
+/* line 89, ../../sass/app/home-page.scss */
+.sticky-icons ul li a .icon.representative {
+  background-position: 12px 6px;
+  background-image: url(../../../_images/consumer/home/floating/icon3.png);
+}
+/* line 91, ../../sass/app/home-page.scss */
+.sticky-icons ul li a .box-title {
+  font-size: 12px;
+  color: #acacac;
+}
+@media screen and (max-width: 790px) {
+  /* line 77, ../../sass/app/home-page.scss */
+  .sticky-icons {
+    display: none;
+  }
+}
+
+/* line 98, ../../sass/app/home-page.scss */
+.featured-videos-wrap {
+  padding: 20px 0px;
+  overflow: auto;
+  background-color: #f5f5f5;
+  overflow: auto;
+  clear: both;
+}
+
+/* line 104, ../../sass/app/home-page.scss */
+.featured-wrap {
+  padding: 20px 0px;
+  overflow: auto;
+}
+/* line 106, ../../sass/app/home-page.scss */
+.featured-wrap h4 {
+  margin: 10px 0px;
+}
+
+/* line 110, ../../sass/app/home-page.scss */
+.featured-wrap .right-box, .featured-videos-wrap .right-box {
+  border: solid 1px #dfdfdf;
+  box-shadow: 0 0 2px #ececec;
+  -ms-box-shadow: 0 0 2px #ececec;
+  -o-box-shadow: 0 0 2px #ececec;
+  -webkit-box-shadow: 0 0 2px #ececec;
+  -moz-box-shadow: 0 0 2px #ececec;
+}
+/* line 112, ../../sass/app/home-page.scss */
+.featured-wrap .right-box .icon, .featured-videos-wrap .right-box .icon {
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+/* line 114, ../../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.developers, .featured-videos-wrap .right-box .icon.developers {
+  background-image: url(../../../_images/consumer/desktop/dc.png);
+  background-position: 0px -4px;
+}
+/* line 115, ../../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.webinars, .featured-videos-wrap .right-box .icon.webinars {
+  background-image: url(../../../_images/consumer/desktop/Webinars.png);
+  background-position: -2px 0px;
+}
+/* line 116, ../../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.blog, .featured-videos-wrap .right-box .icon.blog {
+  background-image: url(../../../_images/consumer/desktop/Blog.png);
+  background-position: 20px 0px;
+}
+/* line 117, ../../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.testimonials, .featured-videos-wrap .right-box .icon.testimonials {
+  background-image: url(../../../_images/consumer/desktop/Testimonials.png);
+  background-position: 17px -4px;
+}
+/* line 119, ../../sass/app/home-page.scss */
+.featured-wrap .right-box h4, .featured-wrap .right-box h5, .featured-wrap .right-box p, .featured-videos-wrap .right-box h4, .featured-videos-wrap .right-box h5, .featured-videos-wrap .right-box p {
+  margin: 3px 0px;
+}
+
+/* line 124, ../../sass/app/home-page.scss */
+.slide-buttons-cont {
+  display: inline-block;
+}
+/* line 126, ../../sass/app/home-page.scss */
+.slide-buttons-cont .slide-button {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 7px;
+  height: 7px;
+  margin: 1px 3px;
+  background-color: #acacac;
+  border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  cursor: pointer;
+}
+/* line 127, ../../sass/app/home-page.scss */
+.slide-buttons-cont .slide-button.active {
+  background-color: #000;
+}
+
+/* line 134, ../../sass/app/home-page.scss */
+.big-carousel-wrap {
+  background-color: #ededed;
+  background-image: url(../../../_images/consumer/desktop/001_Cloud_homepage_Desktop_A.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  top: -42px;
+  position: relative;
+  background-size: 100%;
+}
+/* line 136, ../../sass/app/home-page.scss */
+.big-carousel-wrap .inner {
+  min-height: 450px;
+}
+/* line 137, ../../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box {
+  float: right;
+  padding-top: 80px;
+}
+/* line 139, ../../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box p {
+  line-height: 1;
+}
+/* line 140, ../../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box .cloud-partner {
+  background-color: #454545;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+/* line 142, ../../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box .cloud-partner h2 {
+  margin: 5px 0px;
+}

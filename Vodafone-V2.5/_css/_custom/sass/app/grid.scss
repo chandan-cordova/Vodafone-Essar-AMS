@@ -1,0 +1,11 @@
+.wrapper{
+	display:block; clear:both;
+	.inner{display:block; width:680px; margin:0 auto; clear:both;}
+	@media screen and (max-width:680px){
+		.inner{width:auto;}
+	}
+	@media screen and (max-width:950px){
+		.p-l-n{padding-left:15px !important;}
+		.p-r-n{padding-right:15px !important;}
+	}
+}

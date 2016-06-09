@@ -1,0 +1,71 @@
+
+@import "colors.scss";
+@import "mixins.scss";
+
+
+.noShadow{@include boxShadow(none !important);}
+
+.overflow-auto{overflow:auto}
+.overflow-visible{overflow:visible !important;}
+.overflow-scroll{overflow:scroll;}
+.overflow-y-scroll{overflow-y:scroll;}
+.overflow-x-scroll{overflow-x:scroll;}
+
+::-webkit-input-placeholder{font-weight:lighter;color:darken($lightGray,20%);}
+::-moz-placeholder{font-weight:lighter;color:darken($lightGray,20%);}
+::placeholder{font-weight:lighter;color:darken($lightGray,20%);}
+
+
+// alignment
+
+.center-aligned{position:relative;text-align:center !important;}
+.right-aligned{text-align:right !important;}
+.left-aligned{text-align:left !important;}
+.justified{text-align:justify !important;}
+.middle-aligned{vertical-align:middle !important;}
+.top-aligned{vertical-align:top !important;}
+
+// setting the breaks
+
+.break-word{word-break:break-word;}
+.no-break-word{word-break:initial; white-space:nowrap;}
+
+//changing case
+
+.lowercase{text-transform:lowercase;}
+.uppercase{text-transform:uppercase;}
+.capitalize{text-transform:capitalize;}
+
+.strong,.bold,strong{font-weight:bold;}
+
+[class*=alert-]{display:block; margin-top:5px; margin-bottom:5px;padding:10px 20px; border:solid 1px;}
+[class*=alert-small]{padding:8px 5px;}
+[class*=alert-large]{padding:15px 5px; font-weight:500;}
+
+
+.alert-red{color:darken($red,20%); background-color:lighten($red,50%);}
+.alert-green{color:darken($green,20%);background-color:lighten($green,50%);}
+.alert-blue{color:darken($blue,20%);background-color:lighten($blue,47%);}
+.alert-yellow{color:darken($yellow,20%);background-color:lighten($yellow,40%);}
+.alert-orange{color:darken($orange,20%);background-color:lighten($orange,40%);}
+.alert-main-color-orange{color:darken($mainColor,20%);background-color:lighten($mainColor,40%);}
+
+//position
+.relative{position:relative;}
+
+//displays
+
+.inline-block{display:inline-block;}
+.table{display:table;}
+.table-row{display:table-row; width:100%;}
+.table-cell{display:table-cell !important;}
+.block{display:block !important;}
+
+//floats
+.force-right{float:right;}
+.force-left{float:left;}
+.no-pull{float:none !important;} 
+
+.clear{clear:both;} 
+a{cursor:pointer; text-decoration:none !important;}
+hr.dashed{border:none; border-top:dashed 1px $gray;}

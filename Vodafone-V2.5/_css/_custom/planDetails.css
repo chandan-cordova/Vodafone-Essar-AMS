@@ -1,0 +1,661 @@
+.greyBg {
+    background-color: #efefef;
+}
+#planDetailsPricingTable {
+	font-family: Arial;
+	font-size: 13.73x;
+	background-color: #ececec;
+	border-collapse: collapse;
+}
+#planDetailsPricingTable td {
+    background-color: #ececec;
+    border: 1px solid #a9a9a9;
+    padding: 15px 0 15px 2%;
+}
+.table-responsive {
+    margin-top: 15px;
+    border: none;
+}
+.buyNowBtn, .buyNowBtn:active, .buyNowBtn:active.focus {
+	background: url(../../_images/consumer/planDetails/Buy-now.png) no-repeat center center;
+}
+.compareBtn, .compareBtn:active, .compareBtn:active.focus {
+	background: url(../../_images/consumer/planDetails/Compare.png) no-repeat center center;
+}
+.freeTrialBtn, .freeTrialBtn:active, .freeTrialBtn:active.focus {
+	background: url(../../_images/consumer/planDetails/Free-Trial.png) no-repeat center center;
+}
+.planDetailsPricing .btn, .planDetailsPricing .btn:active, .planDetailsPricing .btn:active.focus,.planDetailsPricing .btn:focus, .planDetailsPricing .btn:hover {
+	color: transparent;
+}
+.visible-xs-block.planDetailsPricing {
+    padding-bottom: 16px;
+}
+.planDetailsKnowMoreHeader {
+    font-size: 18px;
+    font-family: VodafoneExBd;
+    margin: 0;
+    padding: 10px 0;
+    min-height: 96px;
+}
+.planDetailsKnowMore img {
+    width: 100%;
+    height: auto;
+}
+.planDetailsKnowMore p {
+    min-height: 120px;
+}
+.planDetailsO365BusinessEssentials .heading {
+    height: 78px;
+}
+.planDetailsO365BusinessEssentials .inner {
+    font-size: 16px;
+	font-weight: bold;
+    font-family: Arial;
+}
+.planDetailsO365BusinessEssentials p.content {
+    min-height: 140px;
+    font-family: Arial;
+    font-size: 12px;
+}
+.planDetailsO365BusinessEssentials>div:last-child p.content {
+	min-height: auto;
+}
+.planDetailsO365PlansBacked > div {
+	background: url(../images/mobile/planDetails/04_Product_Office365_Plans_mobile_2.jpg) no-repeat 100% 50%;
+}
+.planDetailsO365PlansBacked > div:nth-child(2n) {
+	background-image: none;
+}
+.planDetailsRelatedProducts img {
+    width: 100%;
+    height: auto;
+}
+.planDetailsRelatedProducts p {
+    font-family: Arial;
+    font-size: 13.21px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    min-height: 36px;
+}
+.planDetailsO365BusinessEssentials .heading {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    position: relative;
+}
+.planDetailsO365BusinessEssentials .heading img {
+    width: 42px;
+    position: absolute;
+    bottom: 33px;
+}
+.planDetailsO365BusinessEssentials .heading div {
+    width: 111px;
+    position: absolute;
+    left: 44px;
+    bottom: 33px;
+}
+#accordion .panel {
+	background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/*style added on 06 Jun 2016 */
+.relatedProductsSection .sectionHeading h2 {
+	font-size: 30px;
+}
+#planDetailsFAQAccordion .panel-default {
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+#planDetailsFAQAccordion .panel-default>.panel-heading {
+	color: #333;
+	border: none;
+	border-radius: 0;
+}
+#planDetailsFAQAccordion a.btn-block:not(.collapsed) {
+	color: #fff;
+}
+.relatedProducts  img {
+	width: 100%;
+}
+.advantagesList {
+    position: relative;
+}
+.planDetailsFeatures img {
+    position: static;
+    width: 100%;
+    height: auto;
+}
+.planDetailsFeatures h3 {
+	text-indent: 0;
+}
+#planDetailsPricingTable span {
+	font-family: 'Myriad Pro Regular';
+	text-decoration: line-through;
+}
+@media only screen and (min-width: 992px) {
+	.container.productDetails {
+		width: 1000px;
+		padding: 0;
+	}
+	.relatedProductsSection .sectionHeading h2 {
+		margin: 89px 0 0 25px;
+	}
+	.planDetailsO365PlansBacked .sectionHeading h2 {
+		margin: 81px 25px 41px;
+	}
+	.relatedProductsColumnsContainer {
+		margin: 39px 25px 0;
+	}
+	.relatedProducts {
+		width: 150px;
+		float: left;
+		margin-right: 10px;
+	}
+	.relatedProducts  p {
+		font-size: 14px;
+		font-family: Arial;
+		font-weight: bold;
+	}
+	#planDetailsFAQAccordion {
+		margin: 0 25px;
+	}
+	.big-carousel-wrap {
+		background-image: url(../../_images/consumer/planDetails/04_Product_Office365_Plans_Desktop_2A.jpg);
+		background-repeat: no-repeat;
+		background-position: top center;
+		position: relative;
+		background-size: auto 100%;
+		height: 440px;
+	}
+	.big-carousel-wrap .inner {
+		position: relative;
+		width: 1000px;
+	}
+	.productBanner, .planDetailsPricing {
+		position: static;
+		width: auto;
+		margin-left: 444px;
+		margin-right: 25px;
+	}
+	.productBanner .heading {
+		padding-top: 86px;
+	}
+	.productBanner .content {
+		width: auto;
+	}
+	.O365BusinessEssentialSection h2 {
+		color: #e60000;
+		font-family: VodafoneExBd;
+		font-size: 30px;
+		margin: 81px 0 48px 25px;
+	}
+	#planDetailsPricingTable span {
+		font-size: 11px;
+	}
+	.breadcrumb p {
+		margin: 0 0 0 25px;
+	}
+	.planDetailsFeaturesCol {
+		float: left;
+	}
+	.planDetailsFeaturesCol {
+		border-right: 1px solid #ececec;
+		width: 223.75px;
+		padding-right: 20px;
+		margin-left: 24px;
+	}
+	.planDetailsFeaturesCol:first-child {
+		margin-right: 0;
+		margin-left: 25px;
+		padding-right: 20px;
+		width: 223.75px;
+	}
+	.planDetailsFeaturesCol:nth-child(4) {
+		margin-right: 0;
+		margin-left: 24px;
+		padding-right: 25px;
+		border: none;
+	}
+	.planDetailsFeatures .planDetailsFeaturesCol {
+		border: 1px solid transparent;
+	}
+	.planDetailsKnowMoreHeader {
+		min-height: 60px;
+	}
+	.advantageVodafoneColumnsContainer {
+		margin-bottom: 80px;
+		margin-top: 101px;
+	}
+	.planDetailsO365BusinessEssentials p.content {
+		min-height: 92px;
+	}
+	.planDetailsO365BusinessEssentials {
+		padding-bottom: 40px;
+		width: 950px;
+		margin: 0 auto;
+	}
+	.planDetailsO365BusinessEssentials .heading img {
+		width: 54px;
+		bottom: 30px;
+	}
+	.planDetailsO365BusinessEssentials .heading div {
+		width: auto;
+		left: 60px;
+		bottom: 30px;
+	}
+	.imgTextOneLine {
+		min-height: 64px;
+	}
+	.imgTextOneLine img {
+		width: 53px;
+		height: auto;
+		float: left;
+		margin-right: 8px;
+	}
+	.imgTextOneLine span {
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	.imgTextOneLine + p, .imgTextOneLine + p + p {
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 12px;
+	}
+	.planDetailsO365PlansBacked {
+		margin-bottom: 81px;
+	}
+	.productFAQ .sectionHeading h2 {
+		margin: 46px 0 0 20px;
+	}
+	.relatedProductsSection {
+		margin-bottom: 76px;
+	}
+	.businessEssentialsCol {
+		width: 303.3333333px;
+		margin-right: 20px;
+		float: left;
+	}
+	.businessEssentialsCol:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+	h3.planDetailsKnowMoreHeader {
+		font-family: VodafoneExBd;
+		font-size: 18px;
+		height: 48px;
+		margin-bottom: 26px;
+		min-height: auto;
+		text-indent: 0;
+	}
+	.planDetailsKnowMore p {
+		margin: 12px 0;
+		min-height: 80px;
+	}
+	.planDetailsKnowMore .btn-pink {
+		padding-left: 0;
+	}
+	.planDetailsO365BusinessEssentials .heading div {
+		width: 80%;
+	}
+
+	.planDetailsO365BusinessEssentials p.content {
+		min-height: auto;
+		height: 80px;
+	}
+	.planDetailsRelatedProducts p {
+		font-size: 14px;
+	}
+	#planDetailsPricingTable {
+		font-size: 14px;
+	}
+	#planDetailsPricingTable td {
+		padding: 15px 0 15px 18px;
+	}
+	#planDetailsPricingTable span {
+		font-size: 11px;
+	}
+	.buyNowBtn, .buyNowBtn:active, .buyNowBtn:active.focus {
+		background: url(../../_images/consumer/planDetails/Buy-now.png) no-repeat center center;
+	}
+	.compareBtn, .compareBtn:active, .compareBtn:active.focus {
+		background: url(../../_images/consumer/planDetails/Compare.png) no-repeat center center;
+	}
+	.freeTrialBtn, .freeTrialBtn:active, .freeTrialBtn:active.focus {
+		background: url(../../_images/consumer/planDetails/Free-Trial.png) no-repeat center center;
+	}
+	.planDetailsO365PlansBacked > div {
+		background: url(../../_images/consumer/planDetails/04_Product_Office365_Plans_mobile_2.jpg) no-repeat 100% 50%;
+	}
+	.planDetailsO365PlansBacked > div:last-child {
+		background-image: none;
+	}
+	.planDetailsFeaturesCol {
+		width: 50%;
+		float: left;
+		min-height: 157px;
+		border-right: 1px solid #cecece;
+		padding-right: 2%;
+		margin-bottom: 21px;
+	}
+	.planDetailsFeaturesCol:nth-child(2n) {
+		margin-right: 0;
+		margin-left: 2%;
+		border-right: none;
+		padding-right: 0;
+		width: 48%;
+	}
+	.planDetailsFeatures .planDetailsFeaturesCol {
+		border-color: transparent;
+	}
+	.productBanner {
+		position: absolute;
+		left: 60%;
+		top: 46px;
+		width: 31%;
+	}
+	.big-carousel-wrap .inner {
+		position: static;
+	}
+	.breadcrumbContainer {
+		 margin-top: 194px;
+	}
+	.planDetailsPricing {
+		position: absolute;
+		top: 100%;
+		margin: 0;
+		width: 100%;
+		background: #efefef;
+		padding-bottom: 22px;
+	}
+	.table-responsive {
+		width: 720px;
+		margin: 15px auto 0;
+	}
+	.businessEssentialsCol {
+		width: 48%;
+		margin-right: 2%;
+		float: left;
+	}
+	.businessEssentialsCol:nth-child(2n) {
+		width: 48%;
+		margin-left: 2%;
+		margin-right: 0;
+	}
+	.businessEssentialsCol:last-child {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.imgTextOneLine span {
+		font-size: 16px;
+		font-family: "VodafoneExBd";
+	}
+	.relatedProducts {
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+	}
+	.relatedProducts:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container.productDetails {
+		margin: 0 auto;
+		width: 442px;
+		padding: 0;
+	}
+	.big-carousel-wrap {
+		margin-bottom: 190px;
+		background-image: url(../../_images/consumer/planDetails/04_Product_Office365_Plans_mobile_1.jpg);
+	}
+	.big-carousel-wrap .inner {
+		position: static;
+	}
+	.row.planDetailsPricing {
+		position: absolute;
+		top: 100%;
+		width: 480px;
+		margin: 0 auto;
+		padding: 0 18px;
+		background: #efefef;
+	}
+	.row.planDetailsPricing {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		background: #efefef;
+		left: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.table-responsive {
+		margin: 15px auto 0;
+		border: none;
+		width: 442px;
+	}
+	.planDetailsFeaturesCol {
+		float: left;
+		margin-bottom: 21px;
+	}
+	.planDetailsFeaturesCol:nth-child(2n-1) {
+		border-right: 1px solid #d5d5d5;
+		width: 220px;
+		padding-right: 15px;
+		margin-left: 0;
+	}
+	.planDetailsFeaturesCol:nth-child(2n) {
+		border: none;
+		width: 205px;
+		margin-right: 0;
+		margin-left: 16px;
+		padding-right: 0;
+	}
+	.advantagesList {
+		height: 61px;
+		margin-bottom: 20px;
+	}
+	span.advantages {
+		font-size: 16px;
+		position: absolute;
+		bottom: 0;
+		padding-left: 12px;
+		font-family: VodafoneExBd;
+		line-height: 16px;
+	}
+	.relatedProducts {
+		float: left;
+	}
+	.relatedProducts:nth-child(3n-2) {
+		width: 141px;
+		margin-right: 9px;
+	}
+	.relatedProducts:nth-child(3n-1) {
+		width: 141px;
+		margin-right: 9px;
+	}
+	.relatedProducts:nth-child(3n) {
+		width: 142px;
+	}
+	.productFAQ .sectionHeading h2 {
+		margin: 14px 0 18px 0;
+		font-size: 30px;
+	}
+	.productFAQ .sectionHeading p {
+		margin: 17px 0 7px 0;
+		font-size: 18px;
+		font-family: VodafoneRg;
+		font-weight: bold;
+	}
+	.planDetailsO365PlansBacked .advantagesList img {
+		width: auto;
+	}
+	.freeTrialBtn, .freeTrialBtn:active, .freeTrialBtn:active.focus {
+		background: url(../../_images/consumer/planDetails/Free-Trial.png) no-repeat center center;
+		margin: 19px 0;
+	}
+	.planDetailsKnowMoreHeader {
+		min-height: 52px;
+		margin: 15px 0 0;
+		padding: 0;
+	}
+	.planDetailsFeatures {
+		margin: 10px 0 30px;
+	}
+	.planDetailsO365PlansBacked .sectionHeading h2 {
+		margin: 37px 0 34px;
+		font-size: 24px;
+	}
+	.planDetailsO365PlansBacked .planDetailsFeaturesCol {
+		margin-bottom: 24px;
+	}
+	.imgTextOneLine {
+		min-height: 54px;
+	}
+	.imgTextOneLine img { 
+		float: left;
+	}
+	.imgTextOneLine span {
+		font-family: Arial;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.relatedProductsSection .sectionHeading h2 {
+		font-size: 24px;
+		margin: 38px 0 33px;
+	}
+	.relatedProductsSection {
+		margin-bottom: 30px;
+	}
+	.productBanner {
+		position: absolute;
+		left: 256px;
+		top: 20px;
+		width: 44%;
+	}
+	.businessEssentialsCol {
+		width: 205px;
+		float: left;
+		height: 140px;
+		margin-bottom: 24px;
+	}
+	.businessEssentialsCol:nth-child(2n-1) {
+		padding-right: 15px;
+		border-right: 1px solid #cecece;
+		width: 220px;
+	}
+	.businessEssentialsCol:nth-child(2n) {
+		margin-left: 16px;
+	}
+	.businessEssentialsCol:last-child {
+		margin: 0;
+		width: 442px;
+		padding: 0;
+		border: none;
+		height: auto;
+	}
+	.planDetailsO365BusinessEssentials p.content {
+		min-height: 85px;
+		font-family: Arial;
+		font-size: 12px;
+	}
+	.O365BusinessEssentialSection .sectionHeading h2 {
+		margin: 30px 0;
+	}
+	.planDetailsO365BusinessEssentials {
+		margin: 0 0 32px;
+	}
+	.planDetailsO365BusinessEssentials .heading {
+		height: 40px;
+	}
+	.planDetailsO365BusinessEssentials .heading img {
+		bottom: 0px;
+	}
+	.planDetailsO365BusinessEssentials .heading div {
+		width: 150px;
+		bottom: 0px;
+	}
+	
+}
+
+@media only screen and (max-width: 479px) {
+	.planDetailsFeatures {
+		margin-top: 400px;
+	}
+	.planDetailsPricing {
+		display: block;
+		position: absolute;
+		top: 162%;
+		padding: 0 10px;
+		background: #efefef;
+		width: 100%;
+		margin: 0;
+	}
+	#planDetailsPricingTable {
+		margin-bottom: 15px;
+	}
+	#planDetailsPricingTable td {
+		white-space: normal;
+		font-size: 13px;
+		padding: 10px;
+	}
+	.planDetailsKnowMoreHeader {
+		min-height: 60px;
+	}
+	.O365BusinessEssentialSection .sectionHeading h2,
+	.planDetailsO365PlansBacked .sectionHeading h2,
+	.productFAQ .sectionHeading h2,
+	.relatedProductsSection .sectionHeading h2 {
+		margin: 30px 0;
+		font-size: 24px;
+	}	
+	.planDetailsO365BusinessEssentials p.content {
+		min-height: auto;
+	}
+	.planDetailsO365BusinessEssentials .heading div {
+		width: 85%;
+	}
+	.planDetailsO365BusinessEssentials .heading {
+		height: 57px;
+	}
+	.planDetailsO365BusinessEssentials .heading img {
+		bottom: 0;
+	}
+	.planDetailsO365BusinessEssentials .heading div {
+		bottom: 0;
+	}
+	.imgTextOneLine img {
+		float: left;
+	}
+	.imgTextOneLine span {
+		font-weight: bold;
+		font-family: Arial;
+		font-size: 16px;
+	}
+	.imgTextOneLine p {
+		clear: both;
+	}
+	.planDetailsFeaturesCol {
+		margin-bottom: 24px;
+	}
+	.imgTextOneLine + p {
+		clear: both;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.planDetailsPricing {
+		top: 167%;
+	}
+	.planDetailsFeatures {
+		margin-top: 430px;
+	}
+}

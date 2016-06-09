@@ -1,0 +1,232 @@
+/* line 6, ../../sass/others/common-classes.scss */
+.noShadow {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+/* line 8, ../../sass/others/common-classes.scss */
+.overflow-auto {
+  overflow: auto;
+}
+
+/* line 9, ../../sass/others/common-classes.scss */
+.overflow-visible {
+  overflow: visible !important;
+}
+
+/* line 10, ../../sass/others/common-classes.scss */
+.overflow-scroll {
+  overflow: scroll;
+}
+
+/* line 11, ../../sass/others/common-classes.scss */
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+/* line 12, ../../sass/others/common-classes.scss */
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+/* line 14, ../../sass/others/common-classes.scss */
+::-webkit-input-placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 15, ../../sass/others/common-classes.scss */
+::-moz-placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 16, ../../sass/others/common-classes.scss */
+::placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 21, ../../sass/others/common-classes.scss */
+.center-aligned {
+  position: relative;
+  text-align: center !important;
+}
+
+/* line 22, ../../sass/others/common-classes.scss */
+.right-aligned {
+  text-align: right !important;
+}
+
+/* line 23, ../../sass/others/common-classes.scss */
+.left-aligned {
+  text-align: left !important;
+}
+
+/* line 24, ../../sass/others/common-classes.scss */
+.justified {
+  text-align: justify !important;
+}
+
+/* line 25, ../../sass/others/common-classes.scss */
+.middle-aligned {
+  vertical-align: middle !important;
+}
+
+/* line 26, ../../sass/others/common-classes.scss */
+.top-aligned {
+  vertical-align: top !important;
+}
+
+/* line 30, ../../sass/others/common-classes.scss */
+.break-word {
+  word-break: break-word;
+}
+
+/* line 31, ../../sass/others/common-classes.scss */
+.no-break-word {
+  word-break: initial;
+  white-space: nowrap;
+}
+
+/* line 35, ../../sass/others/common-classes.scss */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 36, ../../sass/others/common-classes.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 37, ../../sass/others/common-classes.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 39, ../../sass/others/common-classes.scss */
+.strong, .bold, strong {
+  font-weight: bold;
+}
+
+/* line 41, ../../sass/others/common-classes.scss */
+[class*=alert-] {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  border: solid 1px;
+}
+
+/* line 42, ../../sass/others/common-classes.scss */
+[class*=alert-small] {
+  padding: 8px 5px;
+}
+
+/* line 43, ../../sass/others/common-classes.scss */
+[class*=alert-large] {
+  padding: 15px 5px;
+  font-weight: 500;
+}
+
+/* line 46, ../../sass/others/common-classes.scss */
+.alert-red {
+  color: maroon;
+  background-color: #ffe6e6;
+}
+
+/* line 47, ../../sass/others/common-classes.scss */
+.alert-green {
+  color: #7ba52a;
+  background-color: white;
+}
+
+/* line 48, ../../sass/others/common-classes.scss */
+.alert-blue {
+  color: #0d3877;
+  background-color: #deeafb;
+}
+
+/* line 49, ../../sass/others/common-classes.scss */
+.alert-yellow {
+  color: #918502;
+  background-color: #fefac7;
+}
+
+/* line 50, ../../sass/others/common-classes.scss */
+.alert-orange {
+  color: #98551e;
+  background-color: #fbf3ed;
+}
+
+/* line 51, ../../sass/others/common-classes.scss */
+.alert-main-color-orange {
+  color: #015169;
+  background-color: #9ee7fe;
+}
+
+/* line 54, ../../sass/others/common-classes.scss */
+.relative {
+  position: relative;
+}
+
+/* line 58, ../../sass/others/common-classes.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 59, ../../sass/others/common-classes.scss */
+.table {
+  display: table;
+}
+
+/* line 60, ../../sass/others/common-classes.scss */
+.table-row {
+  display: table-row;
+  width: 100%;
+}
+
+/* line 61, ../../sass/others/common-classes.scss */
+.table-cell {
+  display: table-cell !important;
+}
+
+/* line 62, ../../sass/others/common-classes.scss */
+.block {
+  display: block !important;
+}
+
+/* line 65, ../../sass/others/common-classes.scss */
+.force-right {
+  float: right;
+}
+
+/* line 66, ../../sass/others/common-classes.scss */
+.force-left {
+  float: left;
+}
+
+/* line 67, ../../sass/others/common-classes.scss */
+.no-pull {
+  float: none !important;
+}
+
+/* line 69, ../../sass/others/common-classes.scss */
+.clear {
+  clear: both;
+}
+
+/* line 70, ../../sass/others/common-classes.scss */
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+/* line 71, ../../sass/others/common-classes.scss */
+hr.dashed {
+  border: none;
+  border-top: dashed 1px #acacac;
+}

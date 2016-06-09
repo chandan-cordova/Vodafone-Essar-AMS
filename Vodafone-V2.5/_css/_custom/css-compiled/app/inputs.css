@@ -1,0 +1,17 @@
+/* line 6, ../../sass/app/inputs.scss */
+.button-purple, .button-purple:hover, .button-purple:active {
+  background-color: #9c2aa0;
+  padding: 6px 20px;
+  color: #FFF;
+  display: inline-block;
+  border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-color: #751f78;
+  border-style: solid;
+  border-width: 1px 1px 2px 1px;
+  text-decoration: none;
+  font-size: 14px;
+}
