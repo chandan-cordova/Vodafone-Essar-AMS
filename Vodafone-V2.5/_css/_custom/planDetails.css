@@ -136,6 +136,7 @@
 	font-family: 'Myriad Pro Regular';
 	text-decoration: line-through;
 }
+
 @media only screen and (min-width: 992px) {
 	.container.productDetails {
 		width: 1000px;
@@ -651,6 +652,7 @@
 		clear: both;
 	}
 }
+
 @media only screen and (max-width: 320px) {
 	.planDetailsPricing {
 		top: 167%;
